@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Crimson text';
+}
+
+header{
+    background-image: url(https://images.pexels.com/photos/618773/pexels-photo-618773.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    height: 350px; 
+}
+
+h1 {
+    color: #8B0020;
+    text-align: right;
+    margin-top: 180px;
+    font-size: 60px;
+    margin-right: 30px;
+    font-family: 'crimson text';
+}
+
+nav ul {
+    display: flex;
+    background-color: rgba(28, 28, 28, 0.6);
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    
+
+}
+
+nav ul li a {
+    color: #ffffff;
+    padding: 15px 40px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    transition: .5s;
+    width: 200px;
+    text-align: center;
+    font-family: 'crimson text';
+}
+
+nav ul li a:hover {
+    color: #1c1c1c;
+    background-color: #c0c0c0;
+    padding: 17px 15px 13px 15px;
+    border-radius: 30px;
+    
+}
+
+.logo {
+    width: 400px;
+    height: 225px;
+    position: absolute;
+    top: 180px;   
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 140px;
+    
+}
+.card{
+    margin: 50px;
+    background-color: #e8e8e8;
+    width: 300px;
+    height: 530px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 120px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.card1 h2{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    color: #8B0020;
+}
+.card1 p {
+    text-align: center;
+    text-align: justify;
+    margin: 0px 10px 10px 10px;
+    
+}
+
+.card2 h2{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    color: #8B0020;
+}
+
+.card2 p {
+    text-align: center;
+    text-align: justify;
+    margin: 0px 10px 10px 10px;
+    
+}
+
+.card3 h2{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    color: #8B0020; 
+}
+
+.card3 p {
+    text-align: center;
+    text-align: justify;
+    margin: 0px 10px 10px 10px;
+    
+}
+
+.card>img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+aside p{
+    
+    color: #8B0020;
+    margin: -150px 200px 150px 0px;
+    /* margin-bottom: 180px; */
+    height: 80px;
+    font-size: 26px;
+    width: 50%;
+    text-align: justify;
+    position: relative;
+    left: 550px;
+    text-align: right;
+    
+
+}
+
+.local {
+    position: fixed;
+    bottom: 0px;
+    height: 120px;
+    background-color: rgba(28, 28, 28, 0.8);
+    width: 100%;
+
+}
+
+.contact {
+    font-size: 20px;
+    font-family: 'crimson text';
+}
+
+.local {
+    display: flex;
+}
+
+.local ul {
+    font-size: 16px;
+    padding: 20px;
+    list-style-type: none;
+}
+
+.local ul li {
+    color: white;
+    list-style: none;
+}
+
+.redes ul {
+    display: flex;
+
+
+}
+
+.redes ul li {
+    padding: 20px;
+    font-family: 'crimson';
+    font-size: 18px;
+    list-style: none;
+}
+
+.redes li a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 450px;
+    top: 0px;
+}
+.redes li a:hover {
+    color: #CD853F;
+}
+
+.copyrigth {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    font-family: 'crimson';
+    font-size: 16px;
+    
+}
